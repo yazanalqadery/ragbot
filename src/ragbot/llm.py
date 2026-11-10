@@ -15,5 +15,3 @@ def summarize_with_retry(text: str, attempts: int = 3) -> str:
         except TimeoutError:
             if attempt == attempts - 1:  # last attempt → give up
                 raise
-def total(price, tax):
-    return price + taks      # F821: you can see it's a typo for "tax"; Ruff can't be sure
