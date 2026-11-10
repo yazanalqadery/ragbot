@@ -1,4 +1,3 @@
-
 def call_llm(prompt: str) -> str:
     raise RuntimeError("Real API Call! This must never run in tests.")
 

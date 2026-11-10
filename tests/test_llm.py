@@ -48,4 +48,3 @@ def test_retry_succeeds_on_last_attempt():
 
     assert result == "DONE"
     assert fake_llm.call_count == 3
-
